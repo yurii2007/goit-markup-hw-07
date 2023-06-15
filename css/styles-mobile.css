@@ -65,10 +65,39 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
+
 .modal-mobile-links {
     color: var(--title-color);
     text-decoration: none;
 }
 .is-active-mobile {
     color: var(--ocean-color) ;
+}
+
+.mobile-contact-link {
+    display: block;
+}
+.mobile-contact-tel {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--iris-color);
+}
+.mobile-contact-mail {
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.social-links-modal {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
 }
