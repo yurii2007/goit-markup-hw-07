@@ -160,12 +160,21 @@ img {
 .main-box {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/herobg-1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 1440px;
+    min-width: 320px;
     margin: 0 auto;
+}
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .box {
+        background-image: url('../images/herobg-2x.jpg');
+    }
 }
 .main-box-title {
     font-weight: 700;
@@ -216,6 +225,7 @@ img {
 .list-about {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 .list-about-item {
     width: calc((100% - 72px) / 4);
@@ -388,15 +398,23 @@ img {
     display: flex;
     align-items: baseline;
 }
-.footer-logo-part {
-    color: #f4f4fd;
-}
 .footer-link {
     margin-right: 120px;
+}
+.footer-logo-part {
+    color: #f4f4fd;
 }
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
 }
 .social-media {
     margin-right: 80px;
@@ -419,16 +437,17 @@ img {
 .footer-social-links:focus {
     background-color: #31d0aa;
 }
-.footer-description {
-    font-weight: 400;
+
+/* FOOTER SUBS FORM */
+
+.footer-form-title {
+    margin-bottom: 16px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
-    max-width: 264px;
+    color: var(--white-color);
 }
-
-/* FOOTER SUBS FORM */
 .footer-subscribe { 
     display: flex;
     gap: 24px;
@@ -450,14 +469,6 @@ img {
 
 .footer-subs-input::placeholder {
     color: #ffffff;
-}
-.footer-form-title {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--white-color);
 }
 .subscribe-btn {
     display: flex;
