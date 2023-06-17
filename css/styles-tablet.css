@@ -79,6 +79,7 @@
 }
 .our-team-item {
     width: 264px;
+    /* width: calc((100% - 24px) / 2); */
 }
 
 /* CUSTOMERS SECION */

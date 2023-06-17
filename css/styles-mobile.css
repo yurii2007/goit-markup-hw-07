@@ -209,6 +209,9 @@
     margin: 0 auto 72px;
     text-align: center;
 }
+.social-links-footer {
+    justify-content: center;
+}
 
 /* FOOTER SUBS FORM */
 
@@ -251,4 +254,11 @@
 .portfolio {
     padding-top: 64px;
     padding-bottom: 96px;
+}
+
+
+/* MODAL WINDOW */
+
+.modal-window {
+    padding: 72px 16px 24px;
 }
