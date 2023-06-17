@@ -1,0 +1,132 @@
+.menu-toggle {
+    display: none;
+}
+.menu-container {
+    display: none;
+}
+.about-icon {
+    display: none;
+}
+
+.benefits {
+    display: none;
+}
+/* HEADER SECTION */
+
+.header-container {
+    padding: 0 16px;
+}
+
+.header-logo {
+    margin-right: 120px;
+}
+
+.header-contact {
+    flex-direction: column;
+    gap: 12px;
+}
+.contact-link {
+    padding: 0;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+}
+.main-address {
+    padding: 16px 0;
+}
+
+/* HERO SECTION */
+
+.main-box {
+    padding: 112px 0;
+}
+.main-box-title {
+    margin-bottom: 36px;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    padding: 96px 0;
+    padding-left: 16px;
+    margin: 0 auto;
+}
+.list-about {
+    column-gap: 24px;
+    row-gap: 72px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.about-description {
+    font-weight: 500;
+}
+.list-about-item {
+    width: calc((100% - 24px) / 2);
+}
+
+/* OUR TEAM*/
+.our-team {
+    padding: 96px 0;
+}
+.list-our-team {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+}
+.our-team-item {
+    width: 264px;
+}
+
+/* CUSTOMERS SECION */
+
+.customers {
+    padding: 96px 0;
+}
+.client-list {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+.client-list-box {
+    width: calc((100% - 48px) / 3);
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 96px 0;
+}
+.footer-items {
+    flex-direction: column;
+    padding-left: 108px;
+}
+.footer-link {
+    margin-right: 24px;
+}
+.footer-tablet-top {
+    display: flex;
+    margin-bottom: 72px;
+}
+.footer-logo {
+    text-align: center;
+}
+.social-media {
+    margin-right: 0;
+}
+.social-links-footer {
+    justify-content: center;
+}
+
+/* FOOTER SUBS FORM */
+
+.footer-form-title {
+    text-align: left;
+}
+.footer-subs-input {
+    opacity: 0.3;
+}

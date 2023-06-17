@@ -136,7 +136,7 @@
 /* ABOUT SECTION */
 
 .about {
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 .list-about {
     flex-direction: column;
@@ -166,7 +166,7 @@
 /* OUR TEAM */
 
 .our-team {
-    padding: 96px 82px;
+    padding: 96px 0;
 }
 .list-our-team {
     flex-direction: column;
@@ -189,7 +189,6 @@
 }
 .client-list-box {
     width: calc((100% - 16px) / 2);
-    height: 88px;
 }
 
 /* FOOTER */
@@ -230,4 +229,26 @@
 .subscribe-btn {
     width: 165px;
     margin: 0 auto;
+}
+
+/* PORTFOLIO MAIN */
+
+.prt-nav-list {
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 24px;
+}
+
+.nav-btn {
+    padding: 8px 16px;
+}
+.prt-main {
+    row-gap: 72px;
+}
+.prt-main-item {
+    width: calc((100% - 24px) / 2);
+}
+.portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
 }

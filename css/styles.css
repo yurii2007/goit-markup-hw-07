@@ -26,8 +26,6 @@ p {
     padding: 0;
 }
 
-
-
 body {
     color: #434455;
     font-family: 'Roboto', sans-serif;
@@ -210,6 +208,8 @@ img {
 .main-box-btn:focus {
     background-color: #404BBF;
 }
+
+/* ABOUT SECTION */
 .about {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -287,6 +287,9 @@ img {
     justify-content: center;
     gap: 24px;
 }
+.our-team-workers {
+    padding: 32px 16px;
+}
 .social-links {
     display: flex;
     justify-content: center;
@@ -338,9 +341,6 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align:center;
-}
-.our-team-workers {
-    padding: 32px 16px;
 }
 /* CUSTOMERS*/
 .customers {
@@ -499,6 +499,13 @@ img {
 
 /* PORTFOLIO */
 
+.prt-nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .nav-btn {
     background-color: #F4F4FD;
     font-weight: 500;
@@ -578,12 +585,7 @@ img {
 .portfolio-container{
     padding: 0 15px;
 }
-.prt-nav-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
-}
+
 .prt-main {
     display: flex;
     flex-wrap: wrap;
@@ -791,4 +793,18 @@ img {
 .modal-form-btn:hover,
 .modal-form-btn:focus {
     background-color: #404BBF;
+}
+
+
+@media screen and (min-width:1158px) {
+    .menu-toggle {
+            display: none;
+        }
+        .menu-container {
+            display: none;
+        }
+
+        .footer-tablet-top {
+            display: flex;
+        }
 }
