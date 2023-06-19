@@ -261,5 +261,10 @@
 
 .modal-window {
     width: 392px;
-    padding: 72px 16px 0;
+    padding: 72px 16px 24px;
+}
+@media screen and (max-width: 395px) {
+    .modal-window {
+        width: 298px;
+    }
 }
