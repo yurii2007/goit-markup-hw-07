@@ -73,6 +73,7 @@
     line-height: 40px;
 }
 .about-description {
+    text-align: center;
     font-weight: 500;
 }
 .list-about-item {
@@ -96,7 +97,7 @@
 /* CUSTOMERS SECION */
 
 .customers {
-    padding: 96px 0;
+    padding: 96px 108px;
 }
 .client-list {
     flex-wrap: wrap;

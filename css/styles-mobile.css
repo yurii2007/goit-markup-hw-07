@@ -32,8 +32,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    padding-top: 80px;
-    padding-left: 40px;
+    padding: 80px 40px 40px;
     background-color: var(--white-color);
     z-index: 999;
     transform: translateX(100%);
@@ -77,10 +76,6 @@
     color: var(--ocean-color) ;
 }
 
-.modal-mobile-bottom {
-    margin-bottom: 40px;
-}
-
 .mobile-contact-link {
     display: block;
 }
@@ -104,8 +99,7 @@
 
 .social-links-modal {
     display: flex;
-    justify-content: center;
-    gap: 56px;
+    justify-content: space-between;
 }
 
 /* HERO SECTION */
@@ -150,6 +144,7 @@
     text-align: center;
     font-size: 36px;
     line-height: 40px;
+    font-weight: 700;
 }
 .about-icon {
     display: none;
@@ -264,5 +259,6 @@
 /* MODAL WINDOW */
 
 .modal-window {
+    width: 320px;
     padding: 72px 16px 24px;
 }
