@@ -32,7 +32,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    padding: 80px 40px 40px;
+    padding: 80px 40px 0px;
     background-color: var(--white-color);
     z-index: 999;
     transform: translateX(100%);
@@ -100,11 +100,13 @@
 .social-links-modal {
     display: flex;
     justify-content: space-between;
+    max-width: 328px;
 }
 
 /* HERO SECTION */
 
 .main-box {
+    max-width: 428px;
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-img/mobileherobg-1x.jpg);
     background-repeat: no-repeat;
@@ -151,7 +153,6 @@
 }
 .about-description {
     font-weight: 500;
-    text-align: center;
 }
 /* BENEFITS */
 .benefits {
@@ -259,6 +260,6 @@
 /* MODAL WINDOW */
 
 .modal-window {
-    width: 320px;
-    padding: 72px 16px 24px;
+    width: 392px;
+    padding: 72px 16px 0;
 }
