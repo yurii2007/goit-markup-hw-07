@@ -32,7 +32,7 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    padding: 80px 40px 0px;
+    padding: 80px 40px 40px;
     background-color: var(--white-color);
     z-index: 999;
     transform: translateX(100%);
@@ -88,6 +88,13 @@
     text-transform: capitalize;
     color: var(--iris-color);
 }
+
+@media screen and (max-width: 432px){
+    .mobile-contact-tel {
+        font-size: 22px;
+    }
+}
+
 .mobile-contact-mail {
     margin-bottom: 48px;
     font-weight: 500;
@@ -119,7 +126,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .main-box {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url(../images/mobile-img/mobileherobg-2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-img/mobileherobg-2x.jpg);
     }
 }
 
