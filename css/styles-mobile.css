@@ -122,8 +122,8 @@
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .box {
-        background-image: url('../images/mobile-img/mobileherobg-2x.jpg');
+    .main-box {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7)) , url(../images/mobile-img/mobileherobg-2x.jpg);
     }
 }
 
@@ -173,8 +173,9 @@
     gap: 72px;
     align-items: center;
 }
+
 .our-team-item {
-    width: 264px;
+    max-width: 264px;
 }
 
 /* CUSTOMERS */
@@ -237,6 +238,7 @@
 /* PORTFOLIO MAIN */
 
 .prt-nav-list {
+    justify-content: center;
     flex-wrap: wrap;
     row-gap: 16px;
     column-gap: 24px;
@@ -247,9 +249,11 @@
 }
 .prt-main {
     row-gap: 72px;
+    justify-content: center;
 }
 .prt-main-item {
-    width: calc((100% - 24px) / 2);
+    width: calc(100% - 24px);
+    max-width: 396px;
 }
 .portfolio {
     padding-top: 64px;

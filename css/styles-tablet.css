@@ -39,7 +39,18 @@
 
 .main-box {
     padding: 112px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-img/tablet-hero-bg-@1x.jpg);
 }
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .main-box {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/tablet-img/tablet-hero-bg-@2x.jpg);
+    }
+}
+
 .main-box-title {
     margin-bottom: 36px;
 }
@@ -78,8 +89,8 @@
     row-gap: 64px;
 }
 .our-team-item {
-    width: 264px;
-    /* width: calc((100% - 24px) / 2); */
+    max-width: 264px;
+    width: calc((100% - 24px) / 2);
 }
 
 /* CUSTOMERS SECION */
@@ -130,4 +141,18 @@
 }
 .footer-subs-input {
     opacity: 0.3;
+}
+
+
+/* PORFTOLIO */
+
+.prt-main {
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+}
+
+.prt-main-item {
+    width: calc((100% - 24px) / 2);
+    max-width: 356px;
 }
