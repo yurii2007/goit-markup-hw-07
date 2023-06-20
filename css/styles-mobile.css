@@ -113,7 +113,6 @@
 /* HERO SECTION */
 
 .main-box {
-    max-width: 428px;
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-img/mobileherobg-1x.jpg);
     background-repeat: no-repeat;
